@@ -1,0 +1,188 @@
+/* General Setup */
+html{
+    height: 130vh;
+    overflow-x: hidden;
+}
+
+body
+{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    height: 100%;
+    line-height: 1.5;
+}
+
+
+
+
+.w3-top
+{ 
+    width:100vw;
+    color:white
+}
+
+
+.navigation
+{
+    margin-right: 25px;
+}
+
+
+
+.openKast
+{
+ border: 1px solid white;
+ padding: 5px !important;
+ border-radius: 5%;
+
+}
+
+
+
+
+
+
+.bgimg-1 {
+    background-image: url(./assets/gradient-violet-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+  } 
+  
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+
+
+.logo
+{
+width: 175px;
+    /* -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);  */
+
+}
+.logo:hover{  transform: scale(1.1);}
+
+
+
+
+  
+/* laptop picture */
+section.pic
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    
+}
+.laptop{
+    width: 45%;
+  
+}
+/* 1st paragraph */
+
+.title{
+    text-align: center;
+    color: white;
+    margin-left:450px ;
+    margin-right: 450px;
+    font-size: 20px;}
+
+section.words
+{
+    text-align: center;
+    color: white;
+    margin-left:470px ;
+    margin-right: 470px;
+    font-size: 21px;
+
+  
+}
+
+
+.button{
+    margin: 0;
+   position: absolute; 
+   top: 105%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   background-color: rgb(255, 153, 0); 
+   border: none;
+   color: white;
+   padding: 15px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+   width: 200px;
+   font-weight: 600;
+   
+}
+ 
+
+
+
+/* second paragraph */
+.grid
+{
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    color: rgb(53, 54, 56);
+    font-size: 40px;
+}
+
+.bottom
+{
+    overflow-x: hidden;
+    height: 85vh;
+    font-size: 15px;
+}
+
+
+
+.grid-container
+ {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
+
+  .grid-item 
+  {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+
+  .host
+  {
+    margin-left: 400px;
+    margin-right:400px;
+    margin-top: 140px;
+    text-align: center;
+    color: rgb(53, 54, 56);
+    font-size: 25px;
+  }
+
+
+
+
+
+
+.w3-btn,.w3-button{display:inline-block;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;}
+
+/* .w3-left{float:left!important} */
+.w3-right{float:right!important}
+
+h2{
+    width: 60%;
+}
+
